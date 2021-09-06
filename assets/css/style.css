@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
-  margin: 30px 0 10px 0;
+  margin: 0 0 15px 0;
   font-weight: 700;
   line-height: 48px;
   text-transform: uppercase;
@@ -131,11 +131,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: #ccc;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 #hero h2 span {
-  color: #fff;
+  color: rgb(255, 255, 255);
   transition: 0.3s;
   border-bottom: 2px solid #03C4EB;
 }
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 
-#hero .actions a {
+/* #hero .actions a {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -188,7 +188,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-services:hover {
   background: #03C4EB;
   border: 2px solid #03C4EB;
-}
+} */
 
 /*--------------------------------------------------------------
 # Header
@@ -461,11 +461,19 @@ section {
   text-align: center;
   font-weight: 700;
 }
-
-.section-description {
+.section-mini-title {
+  font-size: 22px;
+  color: rgba(3, 3, 3, 0.68);
+  text-transform: uppercase;
   text-align: center;
-  margin-bottom: 40px;
+  font-weight: 700;
 }
+
+/* .section-description {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 40px;
+}  */
 
 .section-title-divider {
   width: 50px;
@@ -495,7 +503,7 @@ section {
     height: auto;
   }
   #about .about-img img {
-    margin-left: 0;
+    margin-left: auto;               /**/
     padding-bottom: 30px;
   }
 }
@@ -705,7 +713,7 @@ section {
 #portfolio .portfolio-item .portfolio-links a {
   color: #fff;
   margin: 0 2px;
-  font-size: 28px;
+  font-size: 20px;
   display: inline-block;
   transition: 0.3s;
 }
@@ -714,15 +722,16 @@ section {
   color: #57e1fd;
 }
 
-#portfolio .portfolio-item:hover .portfolio-info {
+/* #portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
-}
+} */
 
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
   background: #f6f6f6;
   padding: 80px 0;
+  border: 2px rgb(230, 230, 230) solid;
 }
 
 #testimonials .profile {
@@ -730,12 +739,13 @@ section {
 }
 
 #testimonials .profile .pic {
-  border-radius: 50%;
-  border: 6px solid #fff;
+  border-radius: 80%;
+  border: 2px solid rgb(0, 0, 0);
   margin-bottom: 15px;
   overflow: hidden;
   height: 260px;
   width: 260px;
+  background-color: #fff;
 }
 
 #testimonials .profile .pic img {
@@ -779,7 +789,7 @@ section {
 
 /* Team Section
 --------------------------------*/
-#team {
+/* #team {
   background: #fff;
   padding: 80px 0 60px 0;
 }
@@ -825,7 +835,7 @@ section {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
-}
+} */
 
 /* Contact Section
 --------------------------------*/
