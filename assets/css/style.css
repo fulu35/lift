@@ -798,7 +798,7 @@ section {
 
 .portfolio .portfolio-item figure:hover .link-preview {
   opacity: 1;
-  left: calc(50% - 44px);
+  left: calc(50% - 40px);
 }
 
 .portfolio .portfolio-item figure:hover .link-details {
@@ -918,8 +918,8 @@ section {
 }
 
 .testimonials .testimonial-item img {
-  width: 80%;
-  height: 60%;
+  /* width: 80%;
+  height: 60%; */
   /* border-radius: 50%; */
   border: 4px solid #fff;
   margin: 0 auto;
@@ -1382,4 +1382,10 @@ section {
   background: #5faee3;
   color: #fff;
   text-decoration: none;
+}
+
+.img-container {
+  height: 264px;
+  display: flex;
+  align-items: center;
 }
